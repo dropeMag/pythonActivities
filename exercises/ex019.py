@@ -6,7 +6,6 @@ print('Seu nome com todas as letras em minúsculo: {}'.format(nomeCompleto.lower
 print('Quantas letras o seu nome possui: {}'.format((len(nomeCompleto))-(nomeCompleto.count(' '))))
 nomeSeparado = nomeCompleto.split()
 print('Quantas letras tem o primeiro nome: {}'.format(len(nomeSeparado[0])))
-print("Seu nome tem 'Silva'? {}".format('Silva' in nomeCompleto))
+print("Seu nome tem 'Silva'? {}".format('silva' in nomeCompleto.lower()))
 print('Seu primeiro nome: {}'.format(nomeSeparado[0]))
-ultimoNome = nomeSeparado[::-1]
-print('Seu último nome: {}'.format(ultimoNome[0]))
+print('Seu último nome: {}'.format(nomeSeparado[len(nomeSeparado)-1]))
