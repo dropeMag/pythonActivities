@@ -1,7 +1,7 @@
 from random import randint
 respComp = randint(1, 10)
 
-print('='*8, 'ADIVINHA OU PERCA','='*8)
+print('='*8, 'ADIVINHA OU PERCA',  '='*8)
 
 print('\nEM QUE NUMERO ESTOU PENSANDO AGORA?')
 respUser = int(input('resposta: '))

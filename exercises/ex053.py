@@ -18,10 +18,10 @@ while resp != 5:
     if resp == 1:
         print('A soma de {} e {} é igual a {}!'.format(n1, n2, n1+n2))
 
-    if resp == 2:
+    elif resp == 2:
         print('A multiplicação de {} e {} é igual a {}!'.format(n1, n2, n1*n2))
 
-    if resp == 3:
+    elif resp == 3:
         if n1 > n2:
             print('O maior número é {}'.format(n1))
         elif n2 > n1:
@@ -29,7 +29,7 @@ while resp != 5:
         else:
             print('Ambos os números são identicos!')
 
-    if resp == 4:
+    elif resp == 4:
         n1 = int(input('Informe o novo valor de n1: '))
         n2 = int(input('Informe o novo valor de n2: '))
 
